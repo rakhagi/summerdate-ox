@@ -28,12 +28,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg position-absolute w-100 bg-transparent">
+
+    <!-- NAVBAR SECTION  -->
+    <nav class="navbar navbar-expand-lg position-absolute bg-custom1" style="z-index: 3;">
       <div class="container">
         <img src="/img/logo.png" width="40" />
         <a class="navbar-brand fw-bold mx-2" href="#">OX Studio</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler toggler-bg"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -71,25 +73,26 @@
               </div>
             </li>
           </ul>
-          <div class="btn-group">
+          <div class="btn-group dropend contact-us">
             <button
               type="button"
-              style="background-color:#D2DEA8"
+              style="color:aliceblue;background: rgba(201, 172, 127, 0.6  ); "
               class="btn dropdown-toggle"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Contact Us
             </button>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul class="dropdown-menu bg-custom1 dropdown-menu-end">
               <li>
                 <a
                   class="dropdown-item"
                   target="_blank"
+                  style="color: aliceblue;"
                   href="https://api.whatsapp.com/send?phone=6285731112797&text=Hai%20kak Diana...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
                   ><img
                     src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
-                    style="width: 19px; height: 19px; margin: 5px"
+                    style="width: 19px; height: 19px; margin: 5px;color:aliceblue"
                   />Admin 1</a
                 >
               </li>
@@ -97,6 +100,7 @@
                 <a
                   class="dropdown-item"
                   target="_blank"
+                  style="color: aliceblue"
                   href="https://api.whatsapp.com/send?phone=628970660647&text=Hai%20kak Lia...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
                   ><img
                     src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
@@ -115,7 +119,7 @@
     <section id="homesection">
       <div class="container">
       <h1>SUMMERDATE.OX</h1>
-      <p class="p-3">as a part of OX.STUDIO we provide best <span class="fw-bold">Picnic Set</span> for you to boost your creativity, calming your mind and much more.</p>
+      <p class="p-3 mobile-p">as a part of OX.STUDIO we provide best <span class="fw-bold">Picnic Set</span> for you to boost your creativity, calming your mind and much more.</p>
       <button class="galerbutton">GALLERY</button>
       <button class="pricing">Pricings</button>
       </div>
@@ -126,24 +130,65 @@
 
     <!-- GALLERY SECTION -->
 
-    <SECtion id="gallery">
+    <!-- <SECtion id="gallery">
     <div class="title">
-      <img src="img/Mask group.png" alt="">
-    </div>
-    <div class="container p-0 m-0 mx-auto">
-      <div class="row cardboard">
-        <div class="col-md-6"><img src="img/1 1.png" width="650" alt=""></div>
-        <div class="col-md-6 position-relative">
-          <h2 class="text-center p-2 fw-bold" style="margin-top: 50px;">1. The Backyard Party</h2>
+      <img style="margin: 20px;" src="img/Mask group.png" alt="">
+    </div> -->
+
+    <!-- CONTENT OF GALLERY-->
+    <!-- <div class="container p-0 m-0 mx-auto">
+      <div class="row cardboard-main">
+        <div class="col-md-6 bear-img"><img src="img/1 1.png" width="600" alt=""></div>
+        <div class="col-md-6 cardboard position-relative">
+          <h2 class="text-center p-2 fw-bold" style="margin-top: 10px;font-size: 45px;">1. The Backyard Party</h2>
           <h6 class="art1 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span class="fw-bold"> Lorem Ipsum</span> has been the industry's standard dummy text ever since the 1500s.</h6>
         </div>
       </div>
     </div>
+
+    <div class="container p-0 m-0 mx-auto">
+      <div class="row cardboard-main">
+        <div class="col-md-6 cardboard position-relative">
+          <h2 class="text-center p-2 fw-bold" style="margin-top: 10px;font-size: 45px;">2 . The Bear Picnic</h2>
+          <h6 class="art1 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span class="fw-bold"> Lorem Ipsum</span> has been the industry's standard dummy text ever since the 1500s.</h6>
+        </div>
+        <div class="col-md-6"><img src="img/2 1.png" width="600" alt=""></div>
+      </div>
+    </div>
+
+    <div class="container p-0 m-0 mx-auto">
+      <div class="row cardboard-main">
+        <div class="col-md-6 bear-img"><img src="img/3 1.png" width="600" alt=""></div>
+        <div class="col-md-6 cardboard position-relative">
+          <h2 class="text-center p-2 fw-bold" style="font-size: 45px;">3. Rivier Views Holidays</h2>
+          <h6 class="art1 mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span class="fw-bold"> Lorem Ipsum</span> has been the industry's standard dummy text ever since the 1500s.</h6>
+        </div>
+      </div>
+    </div>
+
     
-    </SECtion>
+    </SECtion> -->
 
+ <!-- PRICING SECTION  -->
 
+ <!-- <Section id="pricings">
+  <div class="pricepage-title">
+    <h1 class="fw-bold">LIST OF ITEMS AND PRICES</h1>
+    <img src="img/iconminus.png" style="margin-top: -45px;" height="90" alt="">
+  </div>
 
+  <table>
+    <tr>
+      <td>baris 1 kolom1</td>
+      <td>baris 1 kolom 2</td>
+    </tr>
+    <tr>
+      <td>baris 2 kolom 1</td>
+      <td>baris 2 kolom 2</td>
+    </tr>
+  </table>
+  
+ </Section> -->
 
 
 
