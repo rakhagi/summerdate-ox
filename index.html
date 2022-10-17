@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="<%= BASE_URL %>logo1.ico" />
+    <link rel="icon" href="img/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
-    <title>OX Studio</title>
+    <title>SUMMERDATE.OX</title>
 
     <!-- BOOTSTRAP CSS -->
     <link
@@ -30,7 +30,7 @@
   <body>
 
     <!-- NAVBAR SECTION  -->
-    <nav class="navbar navbar-expand-lg position-absolute bg-custom1" style="z-index: 3;">
+    <nav class="navbar navbar-expand-lg position-absolute " style="z-index: 3;">
       <div class="container">
         <img src="/img/logo.png" width="40" />
         <a class="navbar-brand fw-bold mx-2" href="#">OX Studio</a>
@@ -73,42 +73,31 @@
               </div>
             </li>
           </ul>
-          <div class="btn-group dropend contact-us">
-            <button
-              type="button"
-              style="color:aliceblue;background: rgba(201, 172, 127, 0.6  ); "
-              class="btn dropdown-toggle"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Contact Us
+          <div class="dropdown">
+            <button class="btn-contact-us" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="contact">Contact Us</span><span class="arrow-down">></span>
             </button>
-            <ul class="dropdown-menu bg-custom1 dropdown-menu-end">
-              <li>
-                <a
-                  class="dropdown-item"
-                  target="_blank"
-                  style="color: aliceblue;"
-                  href="https://api.whatsapp.com/send?phone=6285731112797&text=Hai%20kak Diana...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
-                  ><img
-                    src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
-                    style="width: 19px; height: 19px; margin: 5px;color:aliceblue"
-                  />Admin 1</a
-                >
-              </li>
-              <li>
-                <a
-                  class="dropdown-item"
-                  target="_blank"
-                  style="color: aliceblue"
-                  href="https://api.whatsapp.com/send?phone=628970660647&text=Hai%20kak Lia...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
-                  ><img
-                    src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
-                    style="width: 19px; height: 19px; margin: 5px"
-                  />Admin 2</a
-                >
-              </li>
+            <ul class="dropdown-menu">
+              <li><a
+                class="dropdown-item"
+                style="color: aliceblue;"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=6285731112797&text=Hai%20kak Diana...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
+                ><img
+                  src="img/wa-icon.jpg"
+                  style="width: 19px; height: 19px; margin: 5px;color:aliceblue;border-radius: 15px;"
+                />Admin 1</a></li>
+              <li><a
+                class="dropdown-item"
+                style="color: aliceblue;"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=628970660647&text=Hai%20kak Lia...%20saya%20tertarik%20untuk%20memesan%20sesuatu....">
+                <img
+                  src="img/wa-icon.jpg"
+                  style="width: 19px; height: 19px; margin: 5px;color:aliceblue;border-radius: 15px;"
+                />Admin 2</a></li>
             </ul>
+          </div>
           </div>
         </div>
       </div>
@@ -119,9 +108,9 @@
     <section id="homesection">
       <div class="container">
       <h1>SUMMERDATE.OX</h1>
-      <p class="p-3 mobile-p">as a part of OX.STUDIO we provide best <span class="fw-bold">Picnic Set</span> for you to boost your creativity, calming your mind and much more.</p>
-      <button class="galerbutton">GALLERY</button>
-      <button class="pricing">Pricings</button>
+      <p class="p-3 mobile-p">as a part of OX.STUDIO we provide best <span class="fw-bold picnic-coi">Picnic Set</span> for you to boost your creativity, calming your mind and much more.</p>
+      <button class="galerbutton" onclick="myFunction()">GALLERY</button>
+      <button class="pricing" onclick="myFunction()">PRICINGS</button>
       </div>
       
 
@@ -190,6 +179,19 @@
   
  </Section> -->
 
+ <footer>
+  <div class="ctn-footer">
+    <p class="p-about">Summerdate.OX is a Part Of <span class="fw-bold">OX.STUDIO</span> wich is provide a Best Picnic Set you can have. Feel free to contact us for further informations.</p>
+<div class="socmed">
+  <a href="https://www.facebook.com/hashtag/summerdate/" target="_blank"><img class="iconset" src="img/fb.jpg" alt=""></a>
+  <a href="https://www.instagram.com/summerdate.ox/" target="_blank"><img class="iconset" src="img/ig.jpg" alt=""></a>
+  <a href="https://twitter.com/hashtag/summertime" target="_blank"><img class="iconset" src="img/tw.jpg " alt=""></a>
+  <a href="https://api.whatsapp.com/send?phone=6285731112797" target="_blank"><img class="iconset" src="img/wa.jpg" alt=""></a>
+</div>
+<h5>SummerDate <span class="fw-bold">©</span> 2022 All Rights Reserved</h5>
+
+  </div>
+ </footer>
 
 
 
@@ -197,6 +199,7 @@
 
 
 
+</script>
     <noscript>
       <strong
         >We're sorry but Our pages doesn't work
@@ -212,5 +215,10 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function myFunction() {
+        alert("Coming Soon Boskuuuuuu!!");
+      }
+      </script>
   </body>
 </html>
